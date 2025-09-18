@@ -992,6 +992,10 @@ h1, h2, h3, h4, h5, h6 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.grid-cols-7{
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -1022,6 +1026,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .justify-around{
   justify-content: space-around;
+}
+
+.gap-1{
+  gap: 0.25rem;
 }
 
 .gap-2{
